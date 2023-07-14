@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Weather</title>
+  </head>
+  <body style='background-color:#c6c6c6'>
+  <div align = 'center'><h1>Weather</h1></div>
+	<div align = 'center'>
+	  <form action="/" method = "post">
+		<label for="zip">Zip Code:</label>
+		<input type="text" name="zipCode" id="zip" pattern="\d*" maxlength="6"></input>
+		<h1></h1>
+		<label for="country">Country Code:</label>
+		<input type="text" name="countryCode" id="country" maxlength="2"></input>
+		<button type="submit">Go</button>
+	  </form>	
+	</div>
+  </body>
+</html>
